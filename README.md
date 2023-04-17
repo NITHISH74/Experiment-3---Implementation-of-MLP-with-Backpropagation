@@ -1,11 +1,11 @@
 # Experiment-3---Implementation-of-MLP-with-Backpropagation
 
 ## AIM:
-To implement a Multilayer Perceptron for Multi classification
+To implement a Multilayer Perceptron for Multi classification.
 
 ## EQUIPMENTS REQUIRED:
 Hardware – PCs
-Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
+Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook.
 
 ## RELATED THEORETICAL CONCEPT:
 
@@ -175,6 +175,6 @@ print(classification_report(y_test,predictions))
 
 
 ## RESULT:
-Thus a Multilayer Perceptron with Backpropagation is implemented for Multi classification
+Thus a Multilayer Perceptron with Backpropagation is implemented for Multi classification.
 
 
