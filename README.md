@@ -19,8 +19,8 @@ MLP has the following features:
 
 Ø  Consists of two passes
 
-  	(i)  Feed Forward pass
-        (ii) Backward pass
+   	(i)  Feed Forward pass
+    (ii) Backward pass
            
 Ø  Learning process –backpropagation
 
