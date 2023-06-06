@@ -49,9 +49,7 @@ Error Signal:
    * Originates at an output neuron
    
    * Propagates backward through the network neuron
-   
-   * Involves error dependent function in one way or the other
-   
+      
 
 The computation of an estimate of the gradient vector is needed for the backward pass through the network
 
