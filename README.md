@@ -9,7 +9,7 @@ Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook.
 
 ## RELATED THEORETICAL CONCEPT:
 
-A multilayer perceptron (MLP) is a feedforward artificial neural network that generates a set of outputs from a set of inputs. An MLP is characterized by several layers of input nodes connected as a directed graph between the input and output layers.A multilayer perceptron is a neural network connecting multiple layers in a directed graph, which means that the signal path through the nodes only goes one way. Each node, apart from the input nodes, has a nonlinear activation function. An MLP uses backpropagation as a supervised learning technique.MLP is widely used for solving problems that require supervised learning as well as research into computational neuroscience and parallel distributed processing. Applications include speech recognition, image recognition and machine translation.
+A multilayer perceptron (MLP) is a feedforward artificial neural network that generates a set of outputs from a set of inputs. An MLP is characterized by several layers of input nodes connected as a directed graph between the input and output layers.A multilayer perceptron is a neural network connecting multiple layers in a directed graph, which means that the signal path through the nodes only goes one way. Each node, apart from the input nodes, has a nonlinear activation function. An MLP uses backpropagation as a supervised learning technique.MLP is widely used for solving problems that require supervised learning as well as research into computational neuroscience and parallel distributed processing.
  
 MLP has the following features:
 
@@ -17,16 +17,12 @@ MLP has the following features:
 
 Ø  Adopts LMS
 
-Ø  possess Backpropagation algorithm for recurrent propagation of error
-
 Ø  Consists of two passes
 
-  	(i)Feed Forward pass
-	         (ii)Backward pass
+  	(i)  Feed Forward pass
+        (ii) Backward pass
            
 Ø  Learning process –backpropagation
-
-Ø  Computationally efficient method
 
 ![image 10](https://user-images.githubusercontent.com/112920679/198804559-5b28cbc4-d8f4-4074-804b-2ebc82d9eb4a.jpg)
 
@@ -44,8 +40,6 @@ MLP has the following features:
 
  Functional Signal:
 
-* nput signal
-
 * propagates forward neuron by neuron thro network and emerges at an output signal
 
 * F(x,w) at each neuron as it passes
@@ -58,9 +52,6 @@ Error Signal:
    
    * Involves error dependent function in one way or the other
    
-Each hidden neuron or output neuron of MLP is designed to perform two computations:
-
-The computation of the function signal appearing at the output of a neuron which is expressed as a continuous non-linear function of the input signal and synaptic weights associated with that neuron
 
 The computation of an estimate of the gradient vector is needed for the backward pass through the network
 
@@ -69,8 +60,6 @@ TWO PASSES OF COMPUTATION:
 In the forward pass:
 
 •       Synaptic weights remain unaltered
-
-•       Function signal are computed neuron by neuron
 
 •       Function signal of jth neuron is
             ![image](https://user-images.githubusercontent.com/112920679/198814313-2426b3a2-5b8f-489e-af0a-674cc85bd89d.png)
@@ -89,8 +78,6 @@ Forward phase begins with in the first hidden layer and end by computing ej(n) i
 In the backward pass,
 
 •       It starts from the output layer by passing error signal towards leftward layer neurons to compute local gradient recursively in each neuron
-
-•        it changes the synaptic weight by delta rule
 
 ![image](https://user-images.githubusercontent.com/112920679/198814362-05a251fd-fceb-43cd-867b-75e6339d870a.png)
 
